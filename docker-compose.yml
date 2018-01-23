@@ -1,0 +1,19 @@
+version: "3"
+services:
+  mysql:
+    image: mysql:8.0
+    deploy:
+      replicas: 1
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+      - MYSQL_DATABASE=dbtest
+  liquibase:
+    build:
+      context: .
+    links:
+      - mysql:db
+    volumes:
+      - ./schema:/schema
+    entrypoint: /bin/sleep 36000
+volumes:
+  schema:
