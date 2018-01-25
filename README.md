@@ -95,7 +95,7 @@ The file `DATABASECHANGELOG` maintains a listing of all the changes made by liqu
 This work is not and should not be considered "production-ready", especially since there is no password set on the MySQL instance's root user account.  Please use this only for testing and reference on a local, controlled environment.  Otherwise, edit the `docker-compose.yml` and establish a password for the MySQL account.
 
 
-## Diagrams to show what's goign on
+## Diagrams to show what's going on
 These are a work in progress, and use the *mermaid* syntax for graph diagrams.
 
 ```mermaid
