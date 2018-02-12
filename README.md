@@ -1,4 +1,6 @@
 # Liquibase Proof-of-Concept
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fernstae%2Fpoc-liquibase.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fernstae%2Fpoc-liquibase?ref=badge_shield)
+
 
 Liquibase is an application for tooling schema updates and changes to database environments.  The software supports most of the major DB environments, and does so through connectivity with JDBC.
 
@@ -108,3 +110,7 @@ graph TD;
   B --> |applies dbchangeset| A
   schema changes --> A;
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fernstae%2Fpoc-liquibase.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fernstae%2Fpoc-liquibase?ref=badge_large)
